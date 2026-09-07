@@ -1,6 +1,7 @@
 /* Basic styling set */
 html, body {
-	margin:0;padding:0
+	margin:0;
+  padding:0;
 }
 
 * {
@@ -24,12 +25,28 @@ html, body {
   grid-column: col-start / span 12;
 }
 
-.sitename {
-	background-color: green;
-	grid-column: col-start 3 / span 2;
+.nav {
+  grid-column: col-start 5 / span 8;
+  background-color: #444444;
 }
 
-.headerpages {
-
+.brandbanner {
+grid-column: col-start / span 4;
 }
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav li a{
+  color: white;
+  text-decoration: none;
+  padding: 5px 5px;
+}
+
+
 
