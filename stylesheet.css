@@ -55,12 +55,23 @@ grid-column: col-start / span 4;
 grid-column: col-start 2 / span 10; */
 background-color: greenyellow;
 
+
 }
 
-.infobox {
-  background-color: red;
-  grid-column: col-start 5 / span 2;
+.infocontainer {
+  background-color: darkgreen;
+  display: flex; 
+  flex-wrap: wrap;
+  padding: 10px;
+  color: white;
+  border-left: blueviolet solid 5px;
+  border-radius: 5px;
 }
+
+.info-item {
+  margin: 3px;
+}
+
 
 .imageBanner {
   background-color: yellow;
