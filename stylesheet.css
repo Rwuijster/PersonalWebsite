@@ -51,9 +51,9 @@ grid-column: col-start / span 4;
 }
 
 .content {
-grid-column: col-start 2 / span 10;
-background-color: dodgerblue;
-border: 0px;
+/*for large viewmodel grid-column: col-start 4 / span 6; 
+grid-column: col-start 2 / span 10; */
+background-color: greenyellow;
 
 }
 
@@ -64,7 +64,6 @@ border: 0px;
 
 .imageBanner {
   background-color: yellow;
-  border: 1px solid white;
 }
 
 img {
