@@ -6,7 +6,8 @@ html, body {
 
 * {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: Lato, sans-serif;
+  color: black;
 }
 /*--------------------*/
 
@@ -15,13 +16,13 @@ html, body {
   display: grid;
   grid-template-columns: repeat(12, [col-start] 1fr);
   gap: 0px;
-  background-color: dodgerblue;
+  background-color: #f4f5e1;
 }
 
 
 .container > * {
   border: 1px solid green;
-  background-color: beige;
+  background-color: #f4f5e1;
   padding: 10px;
   grid-column: col-start / span 12;
 }
@@ -53,7 +54,7 @@ grid-column: col-start / span 4;
 .content {
 /*for large viewmodel grid-column: col-start 4 / span 6; 
 grid-column: col-start 2 / span 10; */
-background-color: greenyellow;
+background-color: #f4f5e1;
 
 
 }
@@ -80,5 +81,21 @@ background-color: greenyellow;
 img {
   width: 100%;
 }
+
+
+@media screen and (min-width: 700px) {
+  .content {
+    grid-column: col-start 2 / span 10;
+  }
+
+
+@media screen and (min-width: 1200px) {
+  .content {
+    grid-column: col-start 4 / span 6;
+  }
+
+
+}
+
 
 
