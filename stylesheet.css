@@ -51,9 +51,11 @@ grid-column: col-start / span 4;
 }
 
 .content {
-  display: flex;
+
   background-color: greenyellow;
-  justify-content: right;
+  padding-left: 30%;
+  padding-right: 30%;
+ 
 
 }
 
@@ -62,5 +64,13 @@ grid-column: col-start / span 4;
   grid-column: col-start 5 / span 2;
 }
 
+.imageBanner {
+  background-color: yellow;
+  border: 1px solid white;
+}
+
+img {
+  width: 100%;
+}
 
 
