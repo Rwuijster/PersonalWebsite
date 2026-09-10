@@ -51,9 +51,9 @@ grid-column: col-start / span 4;
 }
 
 .content {
-
-  background-color: blueviolet;
- 
+grid-column: col-start 2 / span 10;
+background-color: dodgerblue;
+border: 0px;
 
 }
 
