@@ -48,7 +48,7 @@ grid-column: col-start / span 4;
   color: white;
   text-decoration: none;
   padding: 5px 5px;
-  font-size: 20px;
+  font-size: 1.3em;
 }
 
 .content {
@@ -60,17 +60,27 @@ background-color: #f4f5e1;
 }
 
 .infocontainer {
-  background-color: darkgreen;
-  display: flex; 
-  flex-wrap: wrap;
+  background-color: darkgreen; 
   padding: 10px;
   color: white;
   border-left: blueviolet solid 5px;
   border-radius: 5px;
 }
 
+.infocontainer > * {
+  color: white;
+}
+
 .info-item {
-  margin: 3px;
+  margin: 0.2em;
+}
+
+.displaycontainer {
+  
+  background-color: blueviolet;
+  display: grid;
+  gap: 1em;
+  grid-template-columns: minmax(100px, 1fr);
 }
 
 
